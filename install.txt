@@ -1,0 +1,14 @@
+https://github.com/CompVis/latent-diffusion
+under venv
+git clone https://github.com/CompVis/taming-transformers
+git clone https://github.com/openai/CLIP
+
+cd taming-transformers
+pip install -e .
+cd CLIP
+pip install -e .
+
+pip install -r requirement.txt
+
+git clone https://github.com/CompVis/latent-diffusion
+pip install -e .
